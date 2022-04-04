@@ -17,6 +17,18 @@ PX - Pixels
 SMALL / MEDIUM / LARGE*/
 
 /*---CORPO DA PAGINA---*/
+
+/* FORMATAÇÃO DE TEXTOS
+ITALIC - italico
+BOLD - negrito
+UNDERLINE - sublinhado
+LINE-THROUGHT - tachado
+UPPERCASE - maiúsculas
+LOWERCASE - minúsculas 
+BLINK - piscando
+10% - edentado
+OVERLINE - sobrelinhado*/
+
 body{background-color: black;}
 
 /*-MENU-*/
@@ -85,4 +97,37 @@ th{
     color: brown;
     font-size: 30px;
     font-family: garamond;
+}
+                
+.subtitulo{
+    background-color: red ;
+    color: white;
+    font-weight: bold;
+
+}
+
+.titulofilme{
+    color: #F8F8FF;
+
+}
+
+/*--CONTATO--*/
+
+#area{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+}
+
+#area #formulario{
+    position: absolute;
+    display: block;
+}
+
+fieldset{
+    background-color: #fff;
+    width: 300px;
+    height: 300px;
 }

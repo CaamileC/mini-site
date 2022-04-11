@@ -1,0 +1,145 @@
+/*MUDANDO PLANO DE FUNDO 
+
+background-color
+background-repeat
+background-attachment
+background-position
+*/
+
+/*CORES PODEM SER DEFINIDAS COMO:
+hexadecimais: #FF0000
+RGB: RGB (255,0,0)
+Nomes de cores: RED*/
+
+/* TAMANHOS 
+PX - Pixels
+% - Porcentagem
+SMALL / MEDIUM / LARGE*/
+
+/*---CORPO DA PAGINA---*/
+
+/* FORMATAÇÃO DE TEXTOS
+ITALIC - italico
+BOLD - negrito
+UNDERLINE - sublinhado
+LINE-THROUGHT - tachado
+UPPERCASE - maiúsculas
+LOWERCASE - minúsculas 
+BLINK - piscando
+10% - edentado
+OVERLINE - sobrelinhado*/
+
+.topo{
+    background-image: url(img/netflix.jpg);
+}
+
+body{
+    background-color: black;
+}
+
+/*-MENU-*/
+.menu {
+    background-color: transparent;
+    height: 30px;
+    padding: 10px;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu ul li{
+    float: left;
+}
+
+.menu ul li a{
+    padding: 15px;
+    font-family: arial narrow;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu ul li a:hover{
+    background: white;
+    color: brown; 
+}
+
+h1{
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    font-family: garamond;
+}
+
+table{
+    width: 80%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    border-color: brown;
+    border-collapse: collapse;
+    
+}
+
+td{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 25%;
+}
+
+td a{
+    color: #fff;
+}
+
+th{
+    color: brown;
+    font-size: 30px;
+    font-family: garamond;
+}
+                
+.subtitulo{
+    background-color: red ;
+    color: white;
+    font-weight: bold;
+
+}
+
+.titulofilme{
+    color: #F8F8FF;
+
+}
+
+/*--CONTATO--*/
+
+#area{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+}
+
+#area #formulario{
+    position: absolute;
+    display: block;
+}
+
+fieldset{
+    background-color: #fff;
+    width: 300px;
+    height: 300px;
+}
+
+.img-responsive{
+    align-items: center;
+    height: 350px;
+    padding: 30px;
+}
